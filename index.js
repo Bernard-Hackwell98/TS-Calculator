@@ -7,7 +7,6 @@ const Answer = await inquirer.prompt([
         choices: ["Addition", "Subtraction", "Multiplication", "Division"],
         name: "Operator" }
 ]);
-//console.log(Answer);
 if (Answer.Operator === "Addition") {
     console.log(Answer.FirstNum + Answer.SecondNum);
 }
